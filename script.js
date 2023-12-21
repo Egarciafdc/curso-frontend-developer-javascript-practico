@@ -3,6 +3,7 @@ var Menucorreo = document.querySelector(".desktop-menu");
 var Clickcarrito = document.querySelector(".navbar-shopping-cart");
 var Menuproductos = document.querySelector(".product-detail");
 
+
 ClickMenucorreo.addEventListener("click", function () {
     if (Menucorreo.style.display === "none" || Menucorreo.style.display === "") {
         Menuproductos.style.display = "none";
