@@ -293,6 +293,7 @@ aside {
 }
 
 .product-card img {
+    cursor: pointer;
     width: 240px;
     height: 240px;
     border-radius: 20px;
@@ -432,6 +433,11 @@ aside {
         width: 140px;
         height: 140px;
     }
+
+    #productDetail {
+        height: 100%;
+    }
+
 }
 
 
